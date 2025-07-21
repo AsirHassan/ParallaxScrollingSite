@@ -22,7 +22,7 @@ This is a visually engaging parallax scrolling website that walks the user throu
 ## 🚀 Live Demo
 
 Once deployed via GitHub Pages, it will be available here:  
-`https://AsirHassan.github.io/ParallaxScrollingSite/`
+`https://asirhassan.github.io/ParallaxScrollingSite/`
 
 ## 🛠️ Technologies Used
 
