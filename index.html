@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Car Assembly Journey</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <nav class="scroll-nav">
+  <a href="#intro">Intro</a>
+  <a href="#chassis">Chassis</a>
+  <a href="#engine">Engine</a>
+  <a href="#paint">Paint</a>
+  <a href="#final">final</a>
+  <a href="#contact">contact</a>
+</nav>
+
+<section class="section" id="intro">
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="https://videos.pexels.com/video-files/6606215/6606215-uhd_2732_1440_24fps.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="overlay">
+    <h1>Welcome to Car Assembly</h1>
+    <p>Experience the journey from metal to machine.</p>
+  </div>
+</section>
+
+
+<section class="section" id="chassis">
+    <div class="overlay">
+      <h1>The Foundation of Strength</h1>
+      <p>Every great vehicle begins with a strong and precise chassis. This is the skeleton of the car, the structural framework that supports every other component.
+        In this stage, metal frames are cut, shaped, and welded to create the backbone that ensures durability, safety, and performance.
+        It’s where form meets function.
+        <br><br>
+        Fun Fact:
+        The chassis must pass strict stress and crash tests before moving to the next stage!
+    </div>
+  </section>
+
+  <section class="section" id="engine">
+    <div class="overlay">
+      <h1>Powering the Machine</h1>
+      <p>Now it’s time to give the car its heart, the engine.
+        Engine installation is a highly technical phase where precision is key. The powertrain, gearbox, and essential electronics are fitted with care and accuracy.
+        This stage transforms the car from a hollow shell into a roaring machine, capable of delivering speed, efficiency, and control.
+        <br><br>
+        Quote:
+        "This is where the car gets its soul."</p>
+    </div>
+  </section>
+
+  <section class="section" id="paint">
+    <div class="overlay">
+      <h1>Bringing Beauty to Life</h1>
+      <p>It’s more than just color, it’s personality.
+        Each vehicle enters a multi-step paint booth process: primer, basecoat, and clear coat, all applied in a dust-free, temperature-controlled environment.
+        This stage isn’t just about aesthetics. It protects the car from rust, wear, and weather and gives it that iconic showroom shine.
+        <br><br>
+        Highlight:
+        Paint robots apply every layer with flawless accuracy. Human hands add custom detailing.</p>
+    </div>
+  </section>
+
+  <section class="section" id="final">
+    <div class="overlay">
+      <h1>Precision in the Details</h1>
+      <p>This is where the magic happens. The interiors, dashboards, lighting systems, infotainment units, mirrors, tires, and more come together.
+        Every bolt, every stitch, every switch is carefully installed and tested. The car undergoes rigorous quality checks, from brake systems to infotainment displays.
+        It’s no longer a project. It’s a finished product, ready for the road.
+        <br><br>
+        Did You Know?
+        Each vehicle goes through over 1,000 checks before it rolls out.</p>
+    </div>
+  </section>
+
+<section class="section" id="contact">
+  <div class="overlay">
+    <h2 style="font-size: 1.5rem;">Got a Question or Just Want to Say Hi?</h2>
+    <p style="font-size: 0.9rem;">We’d love to hear from you! Fill out the form below:</p> <br>
+    
+    <form action="mailto:your-email@example.com" method="POST" enctype="text/plain" style="max-width: 400px;">
+      <label for="name" style="font-size: 0.85rem;">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email" style="font-size: 0.85rem;">Email Address:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message" style="font-size: 0.85rem;">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</section>
