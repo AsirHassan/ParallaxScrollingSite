@@ -1,17 +1,13 @@
 window.addEventListener('scroll', function () {
   parallaxScroll();
   revealSections();
+  animateFloatingImages();
 });
 
-window.addEventListener('load', function () {
-  revealSections();
-});
-
-function parallaxScroll() {
-  const scrolled = window.scrollY;
-
-  const overlays = document.querySelectorAll('.overlay');
-  overlays.forEach((overlay, i) => {
-    overlay.style.transform = `translateY(${scrolled * 0.1}px)`;
+function animateFloatingImages() {
+  const scrollY = window.scrollY;
+  document.querySelectorAll('.floating-img').forEach((img, index) => {
+    const offset = scrollY * (0.05 + index * 0.01);
+    img.style.transform = `translateY(${offset}px)`;
   });
 }
