@@ -173,3 +173,58 @@ form button:hover {
   box-shadow: none; 
 }
 
+.parallax-layer img {
+  width: 200px;
+  opacity: 0.5;
+  transition: transform 0.5s ease;
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+}
+
+
+.floating-img {
+  position: absolute;
+  max-width: 25vw;
+  height: auto;
+  opacity: 0.6;
+  transition: transform 1.5s ease-out;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.floating-img img {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.4));
+}
+
+
+.img-left {
+  left: 2%;
+  top: 30%;
+}
+
+.img-right {
+  right: 2%;
+  top: 30%;
+}
+
+.section {
+  position: relative;
+  overflow: hidden;
+}
+
+.section:hover .floating-img {
+  transform: scale(1.1) translateY(-20px);
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
